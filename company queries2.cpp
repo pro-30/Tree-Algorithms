@@ -1,10 +1,9 @@
 #include<bits/stdc++.h>
-//#include <ext/pb_ds/detail/standard_policies.hpp>
 
 const double pi=acos(-1.0);
-//memset ( a , 0 , n * sizeof(ll) ) ;
+
 using namespace std;
-//using namespace __gnu_pbds;
+
 #define   endl    '\n'
 #define   sl(n)     scanf("%lld",&n)
 #define   mp      make_pair
@@ -29,8 +28,8 @@ using namespace std;
 
 #define fast_io ios_base::sync_with_stdio (false) ; cin.tie(0) ; cout.tie(0) ;
 #define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
-// Use cout.flush() for interactive problems.
-// Use this for increased stack size: g++ -o a.exe -Wl,--stack=256000000 -O2 source.cpp
+
+
 inline long long  MAX2(long long  a, long long  b){return (a)>(b)?(a):(b);}
 inline long long  MAX3(long long  a, long long  b,long long  c){return (a)>(b)?((a)>(c)?(a):(c)):((b)>(c)?(b):(c));}
 inline long long  MIN2(long long  a, long long  b){return (a)<(b)?(a):(b);}
@@ -54,24 +53,6 @@ int dy[]={0,1,1, 1, 0,-1,-1,-1};
 inline ll exp(ll a,ll b){if(a==0)return 0ll;ll r=1LL;while(b>0){if(b&1){r=r*(a%mod);r=(r+mod)%mod;}b/=2;a=(a%mod)*(a%mod);a=(a+mod)%mod;}return (r+mod)%mod;}
 ll gcd(ll a,ll b){if(b==0)return a;if(a==0)return b;return gcd(b,a%b);}
 uint32 setbits(ll n){uint32 count=0;while (n){n&=(n-1);count++;}return count; }
-
-// ll f[MAX];
-// ll iv[MAX];
-// ll C(ll n,ll r){
-//   if(n<r)return 0;
-//   ll ans=(f[n]%mod * iv[r]%mod)%mod;
-//   ans=(ans%mod * iv[n-r]%mod)%mod;
-//   return ans%mod;
-// }
-// void init(){
-//   f[0]=1;
-//      iv[0]=1;
-//      f(i,1,MAX)f[i]=(i*f[i-1])%mod;
-//      iv[MAX-1]=exp(f[MAX-1],mod-2);
-
-//      for(int i=MAX-2;i>=0;--i)iv[i]=(iv[i+1]*(i+1))%mod;
-
-// }
 
 ////****************************************************************************************************************************************************************************************************************////
 
