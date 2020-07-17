@@ -7,7 +7,7 @@ Problems available at : https://cses.fi/problemset/list/
 
 2) Tree Matching :      Dynamic Programming on Trees.
 
-3) Tree Diameter :      1st solution based on Proof of Diamter. 2nd using Dynamic Programming on Trees where we try all possible paths.
+3) Tree Diameter :      1st solution based on Proof of Diameter. 2nd using Dynamic Programming on Trees where we try all possible paths.
 
 4) Tree Distances I  :  Dynamic Programming on Trees + Rerooting Technique.
 
